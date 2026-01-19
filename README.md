@@ -1,5 +1,6 @@
 # ControlUTR
- The code for the paper submitted to Nature Communications will be open-sourced upon acceptance. 
+ The code for the paper submitted to Nature Communications will be open-sourced upon acceptance.  
+<img src="method.JPG" width="100%">
 
 Code: (https://github.com/sherlockma11/ControlUTR)  
 Dataset：(https://huggingface.co/datasets/SherlockMa/ControlUTR_training_data)  
