@@ -75,7 +75,7 @@ for mrna in response:
 
 ## mrl
 tokenizer_mrl = OpenRnaLMTokenizer.from_pretrained(
-    "./LLaMA_Factory/src/llamafactory/train/ppo4mrna/RNABenchmark/checkpoint/opensource/splicebert-ms510",
+    "<You Path>",
     cache_dir=None,
     model_max_length=512,
     padding_side="right",
@@ -83,7 +83,7 @@ tokenizer_mrl = OpenRnaLMTokenizer.from_pretrained(
     trust_remote_code=True,
 )
 model_mrl = SpliceBertForSequenceClassification.from_pretrained(
-    "./LLaMA_Factory/src/llamafactory/train/ppo4mrna/RNABenchmark/outputs/ft/rna-all/MeanRibosomeLoading/BEACON-B/splicebert-ms510/666/checkpoint-7200",
+    "<You Path>",
     cache_dir=None,
     num_labels=1,
     problem_type="regression",
